@@ -1,8 +1,13 @@
 name: docker-build
+
 on:
   push:
     branches:
-      - 'main'
+      - main
+  workflow_dispatch:
+    branches:
+      - main
+
 jobs:
   docker:
     runs-on: ubuntu-latest
