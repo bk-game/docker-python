@@ -12,7 +12,7 @@ on:
 jobs:
   use-reusable-workflow:
 
-    uses: kshin1224/docker_python/.github/workflows/image-build.yml@main
+    uses: kshin1224/python/.github/workflows/image-build.yml@main
 
     with:
       name: ${{ github.repository }}
