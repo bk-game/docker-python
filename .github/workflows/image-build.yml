@@ -21,7 +21,7 @@ jobs:
         name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: kshin1224/docker_python
+          repository: com-a/docker-tmpl-python
       -
         name: Checkout
         uses: actions/checkout@v2
