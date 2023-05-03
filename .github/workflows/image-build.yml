@@ -12,6 +12,8 @@ on:
         required: true
       DOCKERHUB_TOKEN:
         required: true
+      DOCKERHUB_REPO:
+        required: true
 
 jobs:
   docker:
