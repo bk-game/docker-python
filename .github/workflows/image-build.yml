@@ -45,6 +45,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ github.repository }}:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}${GITHUB_REPOSITORY#${GITHUB_REPOSITORY_OWNER}/}:latest
           
         
